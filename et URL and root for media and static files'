@@ -1,0 +1,85 @@
+[1mdiff --git a/db.sqlite3 b/db.sqlite3[m
+[1mindex 8013591..2288133 100644[m
+Binary files a/db.sqlite3 and b/db.sqlite3 differ
+[1mdiff --git a/djangoPeo/settings.py b/djangoPeo/settings.py[m
+[1mindex 825dc34..6cb813e 100644[m
+[1m--- a/djangoPeo/settings.py[m
+[1m+++ b/djangoPeo/settings.py[m
+[36m@@ -25,7 +25,7 @@[m [mSECRET_KEY = 'fd924jjnp&cv(*0)&!ej%$(1*bdb3pc3+g7n3%_s%_q&ktk8^m'[m
+ # SECURITY WARNING: don't run with debug turned on in production![m
+ DEBUG = True[m
+ [m
+[31m-ALLOWED_HOSTS = [][m
+[32m+[m[32mALLOWED_HOSTS = ["myfarm.pythonanywhere.com"][m
+ [m
+ [m
+ # Application definition[m
+[1mdiff --git a/venv/Lib/site-packages/Django-2.0.7.dist-info/DESCRIPTION.rst b/venv/Lib/site-packages/Django-2.0.7.dist-info/DESCRIPTION.rst[m
+[1mdeleted file mode 100644[m
+[1mindex c810a02..0000000[m
+[1m--- a/venv/Lib/site-packages/Django-2.0.7.dist-info/DESCRIPTION.rst[m
+[1m+++ /dev/null[m
+[36m@@ -1,45 +0,0 @@[m
+[31m-Django is a high-level Python Web framework that encourages rapid development[m
+[31m-and clean, pragmatic design. Thanks for checking it out.[m
+[31m-[m
+[31m-All documentation is in the "``docs``" directory and online at[m
+[31m-https://docs.djangoproject.com/en/stable/. If you're just getting started,[m
+[31m-here's how we recommend you read the docs:[m
+[31m-[m
+[31m-* First, read ``docs/intro/install.txt`` for instructions on installing Django.[m
+[31m-[m
+[31m-* Next, work through the tutorials in order (``docs/intro/tutorial01.txt``,[m
+[31m-  ``docs/intro/tutorial02.txt``, etc.).[m
+[31m-[m
+[31m-* If you want to set up an actual deployment server, read[m
+[31m-  ``docs/howto/deployment/index.txt`` for instructions.[m
+[31m-[m
+[31m-* You'll probably want to read through the topical guides (in ``docs/topics``)[m
+[31m-  next; from there you can jump to the HOWTOs (in ``docs/howto``) for specific[m
+[31m-  problems, and check out the reference (``docs/ref``) for gory details.[m
+[31m-[m
+[31m-* See ``docs/README`` for instructions on building an HTML version of the docs.[m
+[31m-[m
+[31m-Docs are updated rigorously. If you find any problems in the docs, or think[m
+[31m-they should be clarified in any way, please take 30 seconds to fill out a[m
+[31m-ticket here: https://code.djangoproject.com/newticket[m
+[31m-[m
+[31m-To get more help:[m
+[31m-[m
+[31m-* Join the ``#django`` channel on irc.freenode.net. Lots of helpful people hang out[m
+[31m-  there. Read the archives at https://botbot.me/freenode/django/.[m
+[31m-[m
+[31m-* Join the django-users mailing list, or read the archives, at[m
+[31m-  https://groups.google.com/group/django-users.[m
+[31m-[m
+[31m-To contribute to Django:[m
+[31m-[m
+[31m-* Check out https://docs.djangoproject.com/en/dev/internals/contributing/ for[m
+[31m-  information about getting involved.[m
+[31m-[m
+[31m-To run Django's test suite:[m
+[31m-[m
+[31m-* Follow the instructions in the "Unit tests" section of[m
+[31m-  ``docs/internals/contributing/writing-code/unit-tests.txt``, published online at[m
+[31m-  https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/#running-the-unit-tests[m
+[31m-[m
+[31m-[m
+[1mdiff --git a/venv/Lib/site-packages/Django-2.0.7.dist-info/INSTALLER b/venv/Lib/site-packages/Django-2.0.7.dist-info/INSTALLER[m
+[1mdeleted file mode 100644[m
+[1mindex a1b589e..0000000[m
+[1m--- a/venv/Lib/site-packages/Django-2.0.7.dist-info/INSTALLER[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-pip[m
+[1mdiff --git a/venv/Lib/site-packages/Django-2.0.7.dist-info/LICENSE.txt b/venv/Lib/site-packages/Django-2.0.7.dist-info/LICENSE.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 5f4f225..0000000[m
+[1m--- a/venv/Lib/site-packages/Django-2.0.7.dist-info/LICENSE.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,27 +0,0 @@[m
+[31m-Copyright (c) Django Software Foundation and individual contributors.[m
+[31m-All rights reserved.[m
+[31m-[m
+[31m-Redistribution and use in source and binary forms, with or without modification,[m
+[31m-are permitted provided that t
