@@ -1,52 +1,172 @@
+/*Specification*/
+
 h1 a {
     color: #FCA205;
     font-family: 'Lobster';
 }
 
+body{
 
-.page-header {
-    background-color: #ff9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
+html {font-size:1rem;}
+
+/*First section*/
+
+
+
+
+.header{
+    background: #ffffff;
+    color: #010101;
+    padding-top: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
 }
 
-.content {
-    margin-left: 40px;
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+.menu{
+    margin-top: -2%;
+
+
+
 }
 
-.date {
-    color: #828282;
+.menu__main{
+    margin: 0 2%;
+    z-index: 20;
+
+
+
+
+
 }
 
-.save {
-    float: right;
-}
-
-.post-form textarea, .post-form input {
-    width: 100%;
-}
-
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-}
-
-.post {
-    margin-bottom: 70px;
-}
-
-.post h1 a, .post h1 a:visited {
+.menu__main a{
+    font-size:1.2rem;
     color: #000000;
+
+
+
 }
+
+.menu__main a:active{
+    color: #67943f;
+
+}
+
+.menu__login{
+
+    text-align: right;
+    z-index: 20;
+    margin-top: -12px;
+
+}
+.menu__login a{
+    font-size:1.2rem;
+    color: #000000;
+    margin-right: 19px;
+
+}
+
+.logo{
+    position: relative;
+    margin-left: -5%;
+    width: 86%;
+    max-width: 130px;
+
+
+
+}
+
+
+.btn_korzina_div{
+    z-index: 20;
+    width: 50px;
+    max-width: 97px;
+    right: 2%;
+    margin-top: 0.5%;
+
+
+
+
+}
+.korzina{
+    background: #82ba00;
+       cursor:pointer;
+    margin-top: 20%;
+    z-index: 20;
+    max-width: 90%;
+    height: 55px;
+     border-radius: 0px !important;
+
+
+}
+
+hr{
+    position: relative;
+    top:-15px;
+    left: -10px;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #9c9c9c; /* Цвет линии для остальных браузеров */
+    background-color: #9c9c9c; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+}
+
+
+.shadow{
+    margin-top: -1.4%;
+}
+
+.back{
+    position: absolute;
+    margin-top: -10%;
+}
+/*section 2*/
+
+
+.paralelogram {
+
+    position: relative;
+    width: 69%;
+    max-width: 705px;
+
+    margin: 0 auto; /* центрируем основной контейнер */
+    left: -43px;
+    top: -190px;
+
+
+}
+
+.pae{
+    margin-left: -6%;
+    width: 95%;
+    height:55%;
+}
+
+.main_ma{
+    width: 96%;
+    max-width: 1025px;
+    margin: 0 auto; /* центрируем основной контейнер */
+    position: relative;
+    left: 343px;
+    top: -890px;
+}
+
+img{
+    width: 100%; /* ширина картинки */
+  height: auto; /* высота картинки */
+}
+
+.vinograd{
+    height: 46%;
+}
+
