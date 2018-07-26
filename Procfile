@@ -1,1 +1,1 @@
-web: gunicorn djangoPoe.wsgi --log-file -
+web: gunicorn djangoPeo.wsgi --log-file -
