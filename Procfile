@@ -1,1 +1,1 @@
-web: gunicorn myfarmvp.wsgi --log-file -
+web: gunicorn djangoPoe.wsgi --log-file -
