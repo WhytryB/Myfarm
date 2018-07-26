@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import dj_database_url
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fd924jjnp&cv(*0)&!ej%$(1*bdb3pc3+g7n3%_s%_q&ktk8^m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["myfarm.pythonanywhere.com","127.0.0.1"]
+ALLOWED_HOSTS = ["myfarm.pythonanywhere.com","127.0.0.1",'.herokuapp.com']
 
 
 # Application definition
@@ -39,6 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
 ]
+
+
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
