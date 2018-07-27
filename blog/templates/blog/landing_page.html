@@ -4,10 +4,11 @@
         <title>Myfarm</title>
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=cyrillic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One&amp;subset=cyrillic" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0/css/bootstrap-theme.min.css">
-
         <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
-
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
          <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
          <link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -62,62 +63,103 @@
                          <div class="main_ma">
                               <img src={% static 'images/Layer 2.png' %} width="1025" height="640" class="vinograd"/>
                          </div>
-
-
-
-
-
-
-
-
                      </div>
                 </div>
-{#             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">#}
-{#                <a class="navbar-brand" href="#"><img src={% static 'images/logo-ferma.jpg' %} width="22%" height="22%"/></a>#}
-{#                 <div class="suka" style="width:30%;border-bottom:3px solid green;">#}
-{#                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">#}
-{#                            <span class="navbar-toggler-icon"></span>#}
-{#                          </button>#}
-{#                        <div class="collapse navbar-collapse" id="navbarCollapse">#}
-{#                            <div class="navbar-nav mr-auto">#}
-{##}
-{#                                  <li class="nav-item active">#}
-{#                                    <a class="nav-link" href="#">ГЛАВНАЯ <span class="sr-only">(current)</span></a>#}
-{#                                  </li>#}
-{#                                  <li class="nav-item">#}
-{#                                    <a class="nav-link" href="#">О НАС</a>#}
-{#                                  </li>#}
-{#                                  <li class="nav-item">#}
-{#                                    <a class="nav-link" href="#">МАГАЗИН</a>#}
-{#                                  </li>#}
-{#                                  <li class="nav-item">#}
-{#                                    <a class="nav-link" href="#">КОНТАКТЫ</a>#}
-{#                                  </li>#}
-{##}
-{##}
-{#                            </div>#}
-{#                    </div>#}
-{#                 </div>#}
-{##}
-{#                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">#}
-{#                         <li class="nav-items">#}
-{#                            <a class="nav-link " href="#">Войти</a>#}
-{#                         </li>#}
-{#                    </ul>#}
-{#                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src={% static 'images/korzina.png' %} width="18%" height="18%" /></button>#}
-{##}
-{#            </nav>#}
             </div>
         </div>
     </header>
 
-    <div class="content container">
+    <div class="section-3">
+<p class="left__vetka"><img src={% static 'images/vetka_left.png' %} width="50" height="50" class="vetka_left"/></p>
+
+    <div class="container">
+
         <div class="row">
-            <div class="col-md-8">
-            {% block content %}
-            {% endblock %}
+
+
+
+            <div class="col-lg-12">
+
+
+                <div class="title">
+
+                    <h2 class="title__main">
+                        Ваше доверие
+                    <br>
+
+                        <img src={% static 'images/vetka.png' %} width="50" height="50" class="vetka"/>
+                        <p class="title__work">Нашей работе</p>
+                    </h2>
+{#            {% block content %}#}
+{#            {% endblock %}#}
+                </div>
             </div>
         </div>
+            <div class="row">
+
+
+                <div class="col-lg-12">
+                    <p class="right__vetka"> <img src={% static 'images/vetka_right.png' %} width="50" height="50" class="vetka_right"/></p>
+
+                    <div class="shape">
+                        <p class="center1"><img src={% static 'images/shape2.png' %} width="1025" height="640" class="shape__two"/></p>
+                        <p class="shape__two__text">Мы открыли <a class="big-text">MyFarm</a> как решение для людей как мы, которые ищут
+                        <br>
+                        способы уменьшения содержания химических веществ в нашей жизни</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="size__icon">
+
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="preim">
+                         <img src={% static 'images/preim1.png' %} width="150" height="150" class="preim__img"/>
+                         <div class="preim__text">
+                             <p class="preim__text__title">Настоящее</p>
+                             <p class="preim__text__opis">Органическое</p>
+                         </div>
+
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                    <div class="preim">
+                         <img src={% static 'images/preim2.png' %} width="150" height="150" class="preim__img  preim_tree"/>
+                         <div class="preim__text">
+                             <p class="preim__text__title">Всегда</p>
+                             <p class="preim__text__opis">Свежее</p>
+                         </div>
+
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                    <div class="preim ">
+                         <img src={% static 'images/preim3.png' %} width="150" height="150" class="preim__img  preim_tree"/>
+                         <div class="preim__text ">
+                             <p class="preim__text__title">Здоровая</p>
+                             <p class="preim__text__opis">Семья</p>
+                         </div>
+
+                    </div>
+                </div>
+                 <div class="col-lg-3">
+                    <div class="preim ">
+
+                         <img src={% static 'images/preim4.png' %} width="150" height="150" class="preim__img  preim_tree"/>
+                         <div class="preim__text ">
+                             <p class="preim__text__title">Без</p>
+                             <p class="preim__text__opis">Консервантов</p>
+                         </div>
+
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+    </div>
     </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

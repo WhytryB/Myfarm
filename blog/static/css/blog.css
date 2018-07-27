@@ -135,12 +135,12 @@ hr{
 
 .paralelogram {
 
-    position: relative;
+    position: absolute;
     width: 69%;
     max-width: 705px;
 
     margin: 0 auto; /* центрируем основной контейнер */
-    left: -43px;
+    left: 133px;
     top: -190px;
 
 
@@ -158,7 +158,8 @@ hr{
     margin: 0 auto; /* центрируем основной контейнер */
     position: relative;
     left: 343px;
-    top: -890px;
+    margin-top:-120px;
+
 }
 
 img{
@@ -167,6 +168,127 @@ img{
 }
 
 .vinograd{
-    height: 46%;
+    position: relative;
+
+
+
+
 }
 
+/*sertion 3*/
+
+.title__main{
+    padding-top: 70px;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+     text-align: center;
+
+}
+
+.section-3{
+
+    background-color: #fdf8e5;
+    margin-top: 70px;
+    bottom: 80px;
+    height: 105%;
+
+}
+
+.title__work{
+    margin-right: -70px;
+    margin-top: -10px;
+}
+
+.vetka{
+    width: 50px;
+    max-width: 50px;
+    margin-left: -84px;
+    margin-top: -10px;
+}
+
+
+.vetka_left{
+    width: 10%;
+    position: absolute;
+    margin-top: 70px;
+
+}
+
+.vetka_right{
+    width: 10.5%;
+    margin-top: 180px;
+    position: absolute;
+
+
+}
+
+.left__vetka{
+    text-align: left;
+}
+
+.right__vetka{
+    text-align: right;
+}
+.shape__two{
+    display:inline-block;
+    position:relative;
+    width: 89%;
+
+}
+
+.center1{
+     text-align: center;
+    margin-top: 10px;
+}
+
+.shape__two__text{
+    display:inline-block;
+    position:absolute;
+    top:84px;
+    left:17%;
+    text-align: center;
+
+    /* Оформление текста */
+    color:#FFF;
+    font-family: 'Poiret One', cursive;
+    font-size:26px;
+}
+
+.preim{
+    margin-left: 46px;
+    margin-right:46px;
+}
+
+.preim__text__title{
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+    margin-left: -30px;
+}
+
+.preim__text__opis{
+    font-family: 'Marck Script', cursive;
+    color:#73b648 ;
+    font-size: 33px;
+    margin-top: -30px;
+
+}
+
+.big-text{
+    font-family: 'Poppins', sans-serif;
+    font-size:28px;
+    font-weight: 500;
+
+}
+
+.preim__img{
+    width: 85%;
+    max-width: 150px;
+
+}
+
+.size__icon{
+    width: 92%;
+    margin-left: 4.5%;
+    margin-top: -20px;
+
+}
